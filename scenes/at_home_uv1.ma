@@ -1,6 +1,6 @@
 //Maya ASCII 2018ff09 scene
 //Name: at_home_uv1.ma
-//Last modified: Mon, Mar 04, 2019 10:19:00 PM
+//Last modified: Wed, Mar 06, 2019 01:00:20 PM
 //Codeset: 1252
 requires maya "2018ff09";
 requires "stereoCamera" "10.0";
@@ -16,13 +16,13 @@ fileInfo "osv" "Microsoft Windows 8 Home Premium Edition, 64-bit  (Build 9200)\n
 fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "1B6F868C-4642-4166-35FC-F4845BDF6783";
-	setAttr ".t" -type "double3" -8.8417125983468949 4.9110329389104148 -4.3275802205981035 ;
-	setAttr ".r" -type "double3" -44.138352447982498 7081.4000000024143 0 ;
+	setAttr ".t" -type "double3" -11.420645458646073 8.4240897906841177 -5.3401914260869754 ;
+	setAttr ".r" -type "double3" -46.53835244559108 7083.4000000002879 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "BDE27EF1-4415-3858-FFDB-56AD40F33E24";
 	setAttr -k off ".v";
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 9.9540920307641372;
+	setAttr ".coi" 14.390351190889591;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
